@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Challenge || 9</title>
+  </head>
+
+  <body class="bg-gray-100 flex justify-center items-center min-h-screen">
+    <div
+      class="bg-gray-100 text-black p-8 space-y-6 shadow-lg w-[90%] h-[90%] md:w-[80%]"
+    >
+      <div
+        class="flex justify-center items-center mx-auto text-white w-[300px] h-[30px] bg-gray-800 rounded-2xl text-xs font-light text-center"
+      >
+        Color <span class="font-bold p-1">#F9ACA7</span> copied to your
+        clipboard
+      </div>
+      <div class="text-center mt-5 font-bold text-xl text-blue-1000">
+        <h2>Color palette generator</h2>
+      </div>
+      <br /><br />
+      <div
+        class="flex flex-col justify-center items-center flex-wrap mx-auto gap-x-2 gap-y-6 sm:flex-row sm:justify-evenly"
+      >
+        <div
+          class="bg-white rounded-lg shadow-lg h-[210px] w-[50vw] sm:w-[140px] hover:-translate-y-3 hover:cursor-pointer duration-500"
+        >
+          <div class="w-[90%] h-[75%] bg-[#EEEDF0] mx-auto mt-2"></div>
+          <div class="text-md font-semibold text-gray-500 text-center mt-3">
+            #EEEDF0
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg h-[210px] w-[50vw] sm:w-[140px] hover:-translate-y-3 hover:cursor-pointer duration-500"
+        >
+          <div class="w-[90%] h-[75%] bg-[#A1B5C1] mx-auto mt-2"></div>
+          <div class="text-md font-semibold text-gray-500 text-center mt-3">
+            #A1B5C1
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg h-[210px] w-[50vw] sm:w-[140px] hover:-translate-y-3 hover:cursor-pointer duration-500 -translate-y-4"
+        >
+          <div class="w-[90%] h-[75%] bg-[#F9ACA7] mx-auto mt-2"></div>
+          <div class="text-md font-semibold text-gray-500 text-center mt-3">
+            #F9ACA7
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg h-[210px] w-[50vw] sm:w-[140px] hover:-translate-y-3 hover:cursor-pointer duration-500"
+        >
+          <div class="w-[90%] h-[75%] bg-[#68747D] mx-auto mt-2"></div>
+          <div class="text-md font-semibold text-gray-500 text-center mt-3">
+            #68747D
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg h-[210px] w-[50vw] sm:w-[140px] hover:-translate-y-2 hover:cursor-pointer duration-500"
+        >
+          <div class="w-[90%] h-[75%] bg-[#CF365F] mx-auto mt-2"></div>
+          <div class="text-md font-semibold text-gray-500 text-center mt-3">
+            #CF365F
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <div
+        class="flex justify-center bg-[#7E6CCA] p-3 w-[280px] mx-auto rounded-md"
+      >
+        <button class="text-white font-semibold text-sm">
+          Generate Palette
+        </button>
+      </div>
+      <p class="text-center text-gray-700 text-xs font-semibold">
+        Or just press the "Spacebar" to generate new palettes.
+      </p>
+      <div
+        class="flex justify-center items-center mx-auto w-[300px] h-[30px] bg-white rounded-2xl text-xs font-light text-center"
+      >
+        click to copy individual color press "C" to copy palette.
+      </div>
+    </div>
+  </body>
+</html>
