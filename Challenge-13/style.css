@@ -1,0 +1,25 @@
+/* Add CSS here */
+
+.onhover:hover{
+    box-shadow: 0 0px 6px 7px #5493d12f;
+    border-color: #5492D1;
+    background-color: #182136af;
+    color: rgba(245, 245, 245, 0.849);
+    cursor: pointer;
+    }
+    .cardHover:hover{
+        transition: ease-in-out 0.7s;
+    }
+    .cardHover:hover{
+        transition: ease-in-out 0.7s;
+        transform: scale(1.15);
+        background-color: #5492D1
+    }
+    .img-rounded{
+        border-radius: 100%;
+        box-shadow: 0 0px 6px 7px #5493d145;
+    }
+    .img-rounded:hover{
+        border-radius: 100%;
+        box-shadow: 0 0px 6px 7px #79a4d084;
+    }
