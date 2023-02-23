@@ -3,8 +3,7 @@ My mini Front End projects contributions in [iCodeThis](https://www.icodethis.co
 **ALL DESIGNS USING TAILWIND CSS**
 
 ## My current progress
-![image](https://user-images.githubusercontent.com/86200305/220482874-595d7772-dca8-4059-9de1-04fd67a11297.png)
-
+![image](https://user-images.githubusercontent.com/86200305/220798067-c901ff91-d3c6-4033-86af-8f63694204b5.png)
 
 ### Challenge 1 (MEGA MENU)
 see the [DEMO](https://www.icodethis.com/submissions/2108)
