@@ -3,7 +3,11 @@ My mini Front End projects contributions in [iCodeThis](https://www.icodethis.co
 **ALL DESIGNS USING TAILWIND CSS**
 
 ## My current progress
-![image](https://user-images.githubusercontent.com/86200305/220798067-c901ff91-d3c6-4033-86af-8f63694204b5.png)
+![image](https://user-images.githubusercontent.com/86200305/221417561-31db7a9a-16e1-44da-871a-385fc515b689.png)
+
+### Challenge 15 (MUSIC STORE) 
+see the [DEMO](https://www.icodethis.com/submissions/3932)
+![image](https://user-images.githubusercontent.com/86200305/221417345-dc204731-4612-4b0e-8c6b-9e712202aea9.png)
 
 ### Challenge 1 (MEGA MENU)
 see the [DEMO](https://www.icodethis.com/submissions/2108)
@@ -72,6 +76,4 @@ see the [DEMO](https://www.icodethis.com/submissions/3552)
 see the [DEMO](https://www.icodethis.com/code/92)
 ![image](https://user-images.githubusercontent.com/86200305/220797121-1fee226b-327f-4346-9866-0b7117c50b9f.png)
 
-### Challenge 15 (MUSIC STORE) 
-see the [DEMO](https://www.icodethis.com/submissions/3932)
-![image](https://user-images.githubusercontent.com/86200305/221417345-dc204731-4612-4b0e-8c6b-9e712202aea9.png)
+
