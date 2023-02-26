@@ -7,7 +7,7 @@ My mini Front End projects contributions in [iCodeThis](https://www.icodethis.co
 
 ### Challenge 15 (MUSIC STORE) 
 see the [DEMO](https://www.icodethis.com/submissions/3932)
-![image](https://user-images.githubusercontent.com/86200305/221417345-dc204731-4612-4b0e-8c6b-9e712202aea9.png)
+![image](https://user-images.githubusercontent.com/86200305/221425338-177408ae-4142-4466-a713-6aafb9cdf928.png)
 
 ### Challenge 1 (MEGA MENU)
 see the [DEMO](https://www.icodethis.com/submissions/2108)
