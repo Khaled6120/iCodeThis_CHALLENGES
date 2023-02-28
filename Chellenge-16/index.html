@@ -1,0 +1,168 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCodeThis: Notes App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-100 min-h-screen">
+    <header class="py-4 px-3 bg-white flex flex-col sm:flex-row gap-3 items-center text-gray-400">
+        <div class="hover:text-sky-600 cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path>
+                <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
+                <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
+            </svg>
+        </div>
+
+        <div class="basis-full text-center sm:text-left">
+            <p class="capitalize text-black md:text-lg">Learn how to motivate yourself</p>
+            <p class="text-xs">48,240 total words | 4 sessions</p>
+        </div>
+
+        <div class="sm:hidden hover:text-sky-600 cursor-pointer" id="nav-menu-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M4 6l16 0"></path>
+                <path d="M4 12l16 0"></path>
+                <path d="M4 18l16 0"></path>
+            </svg>
+        </div>
+
+        <div class="sm:flex sm:gap-2 hidden" id="nav-menu">
+            <button class="hover:text-red-600 cursor-pointer block mx-auto">Delete</button>
+            <button class="flex hover:text-sky-600 cursor-pointer block mx-auto">
+                <span>Export</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24"
+                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M6 9l6 6l6 -6"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main
+        class="w-[95%] mx-auto bg-slate-50 p-8 mt-2 shadow-lg md:grid md:grid-cols-[1fr,4fr] md:gap-4 divide-y-2 md:divide-x-2 md:divide-y-0">
+        <aside>
+            <div class="flex items-center justify-between gap-2">
+                <div
+                    class="p-1 bg-sky-600 text-white rounded-full hidden hover:scale-110 transition ease cursor-pointer sm:flex justify-center items-center h-8 w-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 5l0 14"></path>
+                        <path d="M5 12l14 0"></path>
+                    </svg>
+                </div>
+
+                <div class="basis-full">
+                    <p class="text-lg lg:text-xl text-black font-medium">Sessions</p>
+                    <p class="text-xs text-gray-400">48,240 words</p>
+                </div>
+
+                <div class="cursor-pointer text-gray-400 text-black hover:text-sky-600 md:hidden" id="arrow-down">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M6 9l6 6l6 -6"></path>
+                    </svg>
+                </div>
+
+                <div class="text-blue-500 hover:text-sky-600 hover:scale-110 transition ease hidden sm:block">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24"
+                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                        <path d="M21 21l-6 -6"></path>
+                    </svg>
+                </div>
+            </div>
+
+
+            <div class=" sidebar hidden md:block mt-2 ml-3 space-y-2" id="chapter-menu">
+                <button class="topics block w-full p-2 text-left hover:bg-sky-400 hover:text-white group">
+                    <p class="topic text-md lg:text-lg text-black group-hover:text-white">Intro</p>
+                    <p class="text-xs text-gray-400 group-hover:text-white">2,450 words</p>
+                </button>
+
+                <button class="topics block w-full p-2 text-left hover:bg-sky-400 hover:text-white group">
+                    <p class="topic text-md lg:text-lg text-black group-hover:text-white">Chapter 1</p>
+                    <p class="text-xs text-gray-400 group-hover:text-white">2,450 words</p>
+                </button>
+
+                <button class="topics block active w-full p-2 text-left bg-sky-400 text-white group hover:scale-105 transition ease">
+                    <p class="topic text-md lg:text-lg group-hover:text-white">Chapter 2</p>
+                    <p class="text-xs  group-hover:text-white">2,450 words</p>
+                </button>
+
+                <button class=" topics block w-full p-2 text-left hover:bg-sky-400 hover:text-white group">
+                    <p class="topic text-md lg:text-lg text-black group-hover:text-white">Chapter 3</p>
+                    <p class="text-xs text-gray-400 group-hover:text-white">2,450 words</p>
+                </button>
+            </div>
+
+
+        </aside>
+
+        <section class="mt-6 md:mt-0 pt-4 md:pt-0 md:pl-4">
+
+            <div class="flex items-center mb-4">
+                <p class="basis-full font-medium md:text-2xl font-semibold text-xl text-black">Chapter 2</p>
+                <div class="text-gray-400 flex gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-pencil hover:text-blue-600" width="24" height="24"
+                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4"></path>
+                        <path d="M13.5 6.5l4 4"></path>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-arrows-maximize hover:text-blue-600" width="24" height="24"
+                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M16 4l4 0l0 4"></path>
+                        <path d="M14 10l6 -6"></path>
+                        <path d="M8 20l-4 0l0 -4"></path>
+                        <path d="M4 20l6 -6"></path>
+                        <path d="M16 20l4 0l0 -4"></path>
+                        <path d="M14 14l6 6"></path>
+                        <path d="M8 4l-4 0l0 4"></path>
+                        <path d="M4 4l6 6"></path>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-dots-vertical hover:text-blue-600" width="24" height="24"
+                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="contents  lg:text-md">
+                <p></p>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
