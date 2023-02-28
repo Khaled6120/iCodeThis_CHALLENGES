@@ -76,4 +76,10 @@ see the [DEMO](https://www.icodethis.com/submissions/3552)
 see the [DEMO](https://www.icodethis.com/code/92)
 ![image](https://user-images.githubusercontent.com/86200305/220797121-1fee226b-327f-4346-9866-0b7117c50b9f.png)
 
+### Challenge 16 (NOTES APP) 
+see the [DEMO](https://www.icodethis.com/submissions/4056)
+![image](https://user-images.githubusercontent.com/86200305/221890002-8f6fdb1b-c155-410f-bafe-e71467dc3908.png)
 
+### Challenge 17 (NOTES CARD)  USING PURE FLOWBITE LIBRARY
+see the [DEMO](https://www.icodethis.com/submissions/4098)
+![image](https://user-images.githubusercontent.com/86200305/221890321-0d3e6227-d92e-4505-b285-8fb30e78ea9c.png)
