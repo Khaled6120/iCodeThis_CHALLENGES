@@ -83,3 +83,8 @@ see the [DEMO](https://www.icodethis.com/submissions/4056)
 ### Challenge 17 (NOTES CARD)  USING PURE FLOWBITE LIBRARY
 see the [DEMO](https://www.icodethis.com/submissions/4098)
 ![image](https://user-images.githubusercontent.com/86200305/221890321-0d3e6227-d92e-4505-b285-8fb30e78ea9c.png)
+
+### Challenge 18 (PHOTO GALLERY)  
+see the [DEMO](https://www.icodethis.com/submissions/4173)
+![image](https://user-images.githubusercontent.com/86200305/222155449-da15a98f-aded-4929-a965-b2685121f38d.png)
+
