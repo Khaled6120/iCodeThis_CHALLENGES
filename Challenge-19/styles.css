@@ -1,0 +1,112 @@
+/* Add CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+}
+
+label {
+  width: 150px;
+  height: 75px;
+  background-color: #d7d7d7;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid #4f4f4f2e;
+}
+
+label::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  content: "🐼";
+  position: absolute;
+  height: 60px;
+  background-color: #4f4f4f;
+  border: 2px dashed #d7d7d7;
+  width: 60px;
+  margin: 7px;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+label:nth-child(4):before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  content: "🐰";
+  position: absolute;
+  height: 60px;
+  background-color: #4f4f4f;
+  width: 60px;
+  margin: 7px;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+label:nth-child(6):before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  content: "🕊";
+  position: absolute;
+  height: 60px;
+  background-color: #4f4f4f;
+  width: 60px;
+  margin: 7px;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+label:nth-child(8):before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  content: "🐇";
+  position: absolute;
+  height: 60px;
+  background-color: #4f4f4f;
+  width: 60px;
+  margin: 7px;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background-color: #4f4f4f;
+}
+
+input:checked + label::before {
+  transform: translateX(75px);
+  background-color: whitesmoke;
+  border: 2px dashed #4f4f4f;
+}
+input {
+  display: none;
+}
+
+input:checked + label:nth-child(4) {
+  background-color: #4f4f4fcc;
+}
+
+input:checked + label:nth-child(6) {
+  background-color: #4f4f4f98;
+}
+input:checked + label:nth-child(8) {
+  background-color: #4f4f4f79;
+}
